@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '连白给者都打不过';
-    if (score <= 99) return '一细胞菜鸡';
-    if (score <= 149) return '五细胞大佬';
-    if (score <= 199) return '白王';
-    return '椅子';
+    if (score <= 49) return '嘿嘿，辣鸡';
+    if (score <= 99) return '你是人吗？这都不行';
+    if (score <= 149) return '牛逼！振宇给你磕一个';
+    if (score <= 199) return '卧槽卧槽';
+    return '封神了';
 }
 
 function toStr(obj) {
